@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[GeographicRegion]
+(
+	[Id] UNIQUEIDENTIFIER DEFAULT NEWID() NOT NULL PRIMARY KEY , 
+    [Name] NVARCHAR(200) NULL, 
+    [AssessorId] UNIQUEIDENTIFIER NOT NULL, 
+	[OperationRegion] NVARCHAR(200) NULL, 
+    [Opt] BIT NULL
+    
+)

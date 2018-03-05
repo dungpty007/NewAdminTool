@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[ConflictOfInterest]
+(
+	[Id] UNIQUEIDENTIFIER DEFAULT NEWID() NOT NULL PRIMARY KEY ,
+	[UploadedDate] DATETIME NULL,
+	[Note] NVARCHAR(1000) NULL,
+	[ApplicationId] UNIQUEIDENTIFIER  NOT NULL, 
+	[IsCurrent] BIT NULL, 
+    [Type] INT NULL
+    
+)

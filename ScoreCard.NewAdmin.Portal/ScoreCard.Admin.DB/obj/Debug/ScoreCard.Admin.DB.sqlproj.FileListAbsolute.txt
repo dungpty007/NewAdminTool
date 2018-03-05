@@ -1,0 +1,32 @@
+C:\Projects\AdminTool\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\bin\Debug\ScoreCard.Admin.DB.dacpac
+C:\Projects\AdminTool\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\bin\Debug\ScoreCard.Admin.DB.dll
+C:\Projects\AdminTool\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\bin\Debug\ScoreCard.Admin.DB.pdb
+C:\Projects\AdminTool\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\ScoreCard.Admin.DB.dll
+C:\Projects\AdminTool\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\ScoreCard.Admin.DB.pdb
+C:\Projects\AdminTool\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\Model.xml
+C:\Projects\AdminTool\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\refactor.xml
+C:\Projects\AdminTool\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\postdeploy.sql
+C:\Projects\AdminTool\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\predeploy.sql
+C:\Projects\AdminTool\Master\ScoreCardExperiment - Copy\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\bin\Debug\ScoreCard.Admin.DB.dacpac
+C:\Projects\AdminTool\Master\ScoreCardExperiment - Copy\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\bin\Debug\ScoreCard.Admin.DB.dll
+C:\Projects\AdminTool\Master\ScoreCardExperiment - Copy\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\bin\Debug\ScoreCard.Admin.DB.pdb
+C:\Projects\AdminTool\Master\ScoreCardExperiment - Copy\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\Model.xml
+C:\Projects\AdminTool\Master\ScoreCardExperiment - Copy\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\refactor.xml
+C:\Projects\AdminTool\Master\ScoreCardExperiment - Copy\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\postdeploy.sql
+C:\Projects\AdminTool\Master\ScoreCardExperiment - Copy\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\predeploy.sql
+C:\Projects\AdminTool\Master\ScoreCardExperiment - Copy\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\ScoreCard.Admin.DB.dll
+C:\Projects\AdminTool\Master\ScoreCardExperiment - Copy\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\ScoreCard.Admin.DB.pdb
+C:\Projects\AdminTool\Master\ScoreCardExperiment\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\bin\Debug\ScoreCard.Admin.DB.dacpac
+C:\Projects\AdminTool\Master\ScoreCardExperiment\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\bin\Debug\ScoreCard.Admin.DB.dll
+C:\Projects\AdminTool\Master\ScoreCardExperiment\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\bin\Debug\ScoreCard.Admin.DB.pdb
+C:\Projects\AdminTool\Master\ScoreCardExperiment\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\ScoreCard.Admin.DB.dll
+C:\Projects\AdminTool\Master\ScoreCardExperiment\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\ScoreCard.Admin.DB.pdb
+C:\Projects\AdminTool\Master\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\bin\Debug\ScoreCard.Admin.DB.dacpac
+C:\Projects\AdminTool\Master\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\bin\Debug\ScoreCard.Admin.DB.dll
+C:\Projects\AdminTool\Master\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\bin\Debug\ScoreCard.Admin.DB.pdb
+C:\Projects\AdminTool\Master\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\ScoreCard.Admin.DB.dll
+C:\Projects\AdminTool\Master\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\ScoreCard.Admin.DB.pdb
+C:\Projects\AdminTool\Master\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\Model.xml
+C:\Projects\AdminTool\Master\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\refactor.xml
+C:\Projects\AdminTool\Master\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\postdeploy.sql
+C:\Projects\AdminTool\Master\Master\ScoreCardExperiment\ScoreCard.Admin.Portal\ScoreCard.Admin.DB\obj\Debug\predeploy.sql

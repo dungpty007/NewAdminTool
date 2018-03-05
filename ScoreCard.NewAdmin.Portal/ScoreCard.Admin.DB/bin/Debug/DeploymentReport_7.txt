@@ -1,0 +1,30 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[IntermediaryAssessor]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[IntermediaryAssessor].[DocumentCategoryID] is being dropped, data loss could occur.
+       The column [dbo].[IntermediaryAssessor].[DocumentId] is being dropped, data loss could occur.
+       The column [dbo].[IntermediaryAssessor].[DocumentReviewStatus] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       [dbo].[FK_IntermediaryAssessor_DocumentCategory] (Foreign Key)
+       [dbo].[FK_IntermediaryAssessor_Document] (Foreign Key)
+     Table rebuild
+       [dbo].[IntermediaryAssessor] (Table)
+     Create
+       [dbo].[IntermediaryAssessorDocument] (Table)
+       [dbo].[FK_IntermediaryAssessorDocument_IntermediaryAssessor] (Foreign Key)
+       [dbo].[FK_IntermediaryAssessorDocument_DocumentCategory] (Foreign Key)
+       [dbo].[FK_IntermediaryAssessorDocument_Document] (Foreign Key)
+
+** Supporting actions
+
+The column [dbo].[IntermediaryAssessor].[DocumentCategoryID] is being dropped, data loss could occur.
+The column [dbo].[IntermediaryAssessor].[DocumentId] is being dropped, data loss could occur.
+The column [dbo].[IntermediaryAssessor].[DocumentReviewStatus] is being dropped, data loss could occur.
+

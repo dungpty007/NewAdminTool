@@ -1,0 +1,29 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[DocumentCategory]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Rename
+       [dbo].[Intermediary].[ApplicationStatus] (Column)
+     Alter
+       [dbo].[Intermediary] (Table)
+     Table rebuild
+       [dbo].[DocumentCategory] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_ApplicationDocument_DocumentCategory] (Foreign Key)
+       [dbo].[FK_IntermediaryDocument_DocumentCategory] (Foreign Key)
+       [dbo].[FK_IntermediaryAssessorDocument_DocumentCategory] (Foreign Key)
+       [dbo].[FK_Document_DocumentCategory] (Foreign Key)
+     Create
+       [dbo].[FK_ApplicationDocument_DocumentCategory] (Foreign Key)
+       [dbo].[FK_IntermediaryDocument_DocumentCategory] (Foreign Key)
+       [dbo].[FK_IntermediaryAssessorDocument_DocumentCategory] (Foreign Key)
+       [dbo].[FK_Document_DocumentCategory] (Foreign Key)

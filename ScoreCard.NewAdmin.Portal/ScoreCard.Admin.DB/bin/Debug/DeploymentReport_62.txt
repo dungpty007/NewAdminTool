@@ -1,0 +1,22 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[AuditEvent]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[AuditEvent].[AssessorId] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       [dbo].[FK_CreateAuditEvent_Assessor] (Foreign Key)
+     Table rebuild
+       [dbo].[AuditEvent] (Table)
+     Create
+       [dbo].[QAEvent] (Table)
+
+** Supporting actions
+
+The column [dbo].[AuditEvent].[AssessorId] is being dropped, data loss could occur.
+

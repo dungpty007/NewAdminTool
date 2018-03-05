@@ -1,0 +1,18 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [dbo].[FK_ConflictOfInterest_Application] (Foreign Key)
+     Alter
+       [dbo].[AuditEvent] (Table)
+       [dbo].[ConflictOfInterest] (Table)
+
+** Supporting actions

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>ScoreCard.Admin.DB</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{058fec10-bafb-46d0-af03-4a2c9b1016b6}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql120DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>ScoreCard.Admin.DB</RootNamespace>
+    <AssemblyName>ScoreCard.Admin.DB</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Emails" />
+    <Folder Include="TrainingEvents" />
+    <Folder Include="Profile" />
+    <Folder Include="Documents" />
+    <Folder Include="Scripts" />
+    <Folder Include="Scripts\SeedData" />
+    <Folder Include="Applications" />
+    <Folder Include="ExamEvents" />
+    <Folder Include="IntermediaryAssessor" />
+    <Folder Include="Intermediary" />
+    <Folder Include="RiskFlags" />
+    <Folder Include="DocumentLibrary" />
+    <Folder Include="Audit" />
+    <Folder Include="QAEvent" />
+    <Folder Include="GeographicRegion" />
+    <Folder Include="Regions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Emails\EmailInstance.sql" />
+    <Build Include="Emails\EmailInstanceFull.sql" />
+    <Build Include="Emails\EmailInstanceLinks.sql" />
+    <Build Include="TrainingEvents\TrainingEvent.sql" />
+    <Build Include="TrainingEvents\TrainingEventBooking.sql" />
+    <Build Include="TrainingEvents\TrainingLocation.sql" />
+    <Build Include="Profile\ProfileInformation.sql" />
+    <Build Include="Documents\Document.sql" />
+    <Build Include="Documents\DocumentLinks.sql" />
+    <Build Include="Documents\DocumentMetadata.sql" />
+    <Build Include="Documents\DocumentCategory.sql" />
+    <Build Include="Documents\FileLocationDetails.sql" />
+    <Build Include="Applications\Application.sql" />
+    <Build Include="ExamEvents\ExamEvent.sql" />
+    <Build Include="ExamEvents\ExamEventBooking.sql" />
+    <Build Include="ExamEvents\ExamLocation.sql" />
+    <Build Include="Applications\ApplicationDocument.sql" />
+    <Build Include="Applications\ConflictOfInterest.sql" />
+    <Build Include="IntermediaryAssessor\IntermediaryAssessor.sql" />
+    <Build Include="Intermediary\IntermediaryDocument.sql" />
+    <Build Include="Intermediary\Intermediary.sql" />
+    <Build Include="IntermediaryAssessor\IntermediaryAssessorDocument.sql" />
+    <Build Include="Applications\AdminApplicationNotes.sql" />
+    <Build Include="Applications\AdminApplicationDocumentNotes.sql" />
+    <Build Include="Applications\EmailAttachFile.sql" />
+    <Build Include="RiskFlags\RiskFlagsRecordNote.sql" />
+    <Build Include="RiskFlags\RiskPrincipal.sql" />
+    <Build Include="DocumentLibrary\DocLibDocumentNotes.sql" />
+    <Build Include="Audit\AuditEvent.sql" />
+    <Build Include="QAEvent\QAEvent.sql" />
+    <Build Include="GeographicRegion\GeographicRegion.sql" />
+    <Build Include="Intermediary\IntermediaryLinks.sql" />
+    <Build Include="Intermediary\IntermediaryDocumentNote.sql" />
+    <Build Include="Regions\RegionsLGA.sql" />
+    <Build Include="Regions\RegionLGAAssessor.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="ScoreCard.Admin.DB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\SeedData\DocumentCategory.sql" />
+    <None Include="Scripts\SeedData\TrainingLocation.sql" />
+    <None Include="Scripts\SeedData\RiskPrincipalScript.sql" />
+    <None Include="Scripts\SeedData\Region.sql" />
+  </ItemGroup>
+</Project>

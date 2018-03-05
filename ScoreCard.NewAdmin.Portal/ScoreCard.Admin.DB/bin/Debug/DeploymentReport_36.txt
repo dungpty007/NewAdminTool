@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[TrainingEvent]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[TrainingEvent].[EndTime] is being dropped, data loss could occur.
+       The column [dbo].[TrainingEvent].[StartTime] is being dropped, data loss could occur.
+
+** User actions
+     Table rebuild
+       [dbo].[TrainingEvent] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_TrainingEventBooking_TrainingEvent] (Foreign Key)
+     Create
+       [dbo].[TrainingEvent].[IX_TrainingEvent_EventDate] (Index)
+       [dbo].[FK_TrainingEventBooking_TrainingEvent] (Foreign Key)
+
+The column [dbo].[TrainingEvent].[EndTime] is being dropped, data loss could occur.
+The column [dbo].[TrainingEvent].[StartTime] is being dropped, data loss could occur.
+

@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Intermediary] (Table)
+       [dbo].[IntermediaryAssessor] (Table)
+       [dbo].[IntermediaryDocument] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Intermediary] (Default Constraint)
+       [dbo].[FK_IntermediaryAssessor_DocumentCategory] (Foreign Key)
+       [dbo].[FK_IntermediaryAssessor_Document] (Foreign Key)
+       [dbo].[FK_IntermediaryDocument_DocumentCategory] (Foreign Key)
+       [dbo].[FK_IntermediaryDocument_Document] (Foreign Key)
+       [dbo].[FK_IntermediaryDocument_Intermediary] (Foreign Key)
+
+** Supporting actions

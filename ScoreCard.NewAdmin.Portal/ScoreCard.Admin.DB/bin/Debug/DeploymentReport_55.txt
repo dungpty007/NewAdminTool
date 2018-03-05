@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[IntermediaryAssessorDocument].[DocumentCategoryID] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       [dbo].[FK_IntermediaryAssessorDocument_DocumentCategory] (Foreign Key)
+     Alter
+       [dbo].[IntermediaryAssessorDocument] (Table)
+     Create
+       [dbo].[DocLibDocumentNotes] (Table)
+       Default Constraint: unnamed constraint on [dbo].[DocLibDocumentNotes] (Default Constraint)
+       [dbo].[FK_DocLibDocumentNotes_Document] (Foreign Key)
+
+** Supporting actions
+
+The column [dbo].[IntermediaryAssessorDocument].[DocumentCategoryID] is being dropped, data loss could occur.
+
