@@ -120,4 +120,7 @@
     <None Include="Scripts\SeedData\RiskPrincipalScript.sql" />
     <None Include="Scripts\SeedData\Region.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\SeedData\Script1.sql" />
+  </ItemGroup>
 </Project>
